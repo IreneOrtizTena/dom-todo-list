@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Distressed&family=Russo+One&display=swap');
+
+
+* {
+    
+    margin: 0;
+    padding: 0; 
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+  
+    outline: none;
+}
+
+body{
+    
+    height: 100vh;
+    background-image: url("./image/descarga.jfif");
+    margin: 0;
+    font-family: 'Russo One', shadow-multiple;
+    display: grid;
+    place-items: center;
+    /* background-position: center; */
+    padding: 150px 0;
+    text-align: center;
+    
+    
+
+}
+
+
+.input{
+
+    display: inline-block;
+    align-items: center;
+    padding: 1px 2px;
+}
+ul#list.li{ 
+
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    
+    transition: 0.2s;
+}
+
+
+
+ul li::before {
+	content: "☝";
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: justify;
+    margin: 5px;
+    border-radius: 5px;
+       
+
+    
+}
+
+.btn {
+    
+    font-family: 'Russo One', shadow-multiple;
+  
+    border-radius: 5px;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    background-color: rgb(115, 106, 176);
+   
+    
+}
+
+button{
+    background-color: #6D67E4;
+    border-radius: 8px;
+    text-shadow: 2px;
+    padding: 5px;
+    transition: 1s;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.span{
+    font-size: 60px;
+}
